@@ -1,5 +1,4 @@
 import 'package:emart_app/consts/consts.dart';
-import 'package:emart_app/consts/lists.dart';
 import 'package:emart_app/view/auth_screen/login_screen.dart';
 import 'package:emart_app/widgets_common/applogo_wigdet.dart';
 import 'package:emart_app/widgets_common/bg_widget.dart';
@@ -7,7 +6,6 @@ import 'package:emart_app/widgets_common/custom_textfield.dart';
 import 'package:emart_app/widgets_common/our_button.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 
 class SignupScreen extends StatelessWidget {
   const SignupScreen({super.key});
