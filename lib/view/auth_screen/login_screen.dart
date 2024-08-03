@@ -26,7 +26,9 @@ class _LoginScreenState extends State<LoginScreen> {
               30.heightBox,
               Column(
                 children: [
-                  customTextField(),
+                  customTextField(hint: emailHint,title: email),
+                  customTextField(hint: passwordHint,title: password),
+                  TextButton(onPressed: (){}, child: forgetPass.text.make()),
                 ]
               ).box.white.rounded.padding(const EdgeInsets.all(16)).width(context.screenWidth - 70).make(),
             ],
