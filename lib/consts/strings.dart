@@ -22,5 +22,17 @@ const loginWithGoogle = "Login com Google";
 const loginWithFacebook = "Login com Facebook";
 const loginWithApple = "Login com Apple";
 
+//home strings
+const home = "Inicio",
+    categories = "Categorias",
+    cart = "Carrinho",
+    account = "Conta do Usuario";
 
-
+//home screen strings
+const searchanything = "Pesquise Aqui....",
+    todayDeal = "Today´s Deal",
+    flashsale = "Flash Sale",
+    topSellers = "Top Sellers",
+    brand = "Brand",
+    topCategories = "Top Categories",
+    featuredCategories = "FeaturedCategories";

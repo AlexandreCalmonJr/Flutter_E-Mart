@@ -1,6 +1,7 @@
 import 'package:emart_app/consts/consts.dart';
 import 'package:emart_app/consts/lists.dart';
 import 'package:emart_app/view/auth_screen/signup_screen.dart';
+import 'package:emart_app/view/home_screen/home.dart';
 import 'package:emart_app/widgets_common/applogo_wigdet.dart';
 import 'package:emart_app/widgets_common/bg_widget.dart';
 import 'package:emart_app/widgets_common/custom_textfield.dart';
@@ -36,7 +37,9 @@ class _LoginScreenState extends State<LoginScreen> {
                   customTextField(hint: passwordHint,title: password),
                   TextButton(onPressed: (){}, child: forgetPass.text.make()),
                   5.heightBox,
-                  ourButton(color: redColor, title: login, textColor: whiteColor, onPress: () {})
+                  ourButton(color: redColor, title: login, textColor: whiteColor, onPress: () {
+                    Get.to(() => const Home());
+                  })
                   .box
                   .width(context.screenWidth -50)
                   .make(),
