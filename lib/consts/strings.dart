@@ -29,10 +29,10 @@ const home = "Inicio",
     account = "Conta do Usuario";
 
 //home screen strings
-const searchanything = "Pesquise Aqui....",
-    todayDeal = "Today´s Deal",
-    flashsale = "Flash Sale",
-    topSellers = "Top Sellers",
-    brand = "Brand",
-    topCategories = "Top Categories",
-    featuredCategories = "FeaturedCategories";
+const searchanything = "Pesquise Aqui....";
+const todayDeal = "Oferta de Hoje";
+const flashsale = "Venda Flash";
+const topSellers = "Top Vendedores";
+const brand = "Marca";
+const topCategories = "Top Categorias";
+const featuredCategories = "Categorias Destacadas";
