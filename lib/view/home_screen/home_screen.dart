@@ -21,7 +21,10 @@ class HomeScreen extends StatelessWidget {
                 color: lightGrey,
                 child: TextFormField(
                   decoration: const InputDecoration(
+<<<<<<< HEAD
                     border: InputBorder.none,
+=======
+>>>>>>> 1b2a762412d84c05f646b7ad9222bc9f9ff70f9b
                     suffixIcon: Icon(Icons.search),
                     filled: true,
                     fillColor: whiteColor,
@@ -29,6 +32,7 @@ class HomeScreen extends StatelessWidget {
                     hintStyle: TextStyle(color: textfieldGrey),
                   ),
                 )),
+<<<<<<< HEAD
             10.heightBox,
             Expanded(
               child: SingleChildScrollView(
@@ -46,10 +50,26 @@ class HomeScreen extends StatelessWidget {
                         width: double.infinity,
                         fit: BoxFit.fitWidth,
                       )
+=======
+//swiper brands
+            VxSwiper.builder(
+                aspectRatio: 16 / 9,
+                autoPlay: true,
+                height: 150,
+                enlargeCenterPage: true,
+                itemCount: slidersList.length,
+                itemBuilder: (context, index) {
+                  return Container(
+                      child: Image.asset(
+                    slidersList[index],
+                    fit: BoxFit.fill,
+                  )
+>>>>>>> 1b2a762412d84c05f646b7ad9222bc9f9ff70f9b
                           .box
                           .rounded
                           .clip(Clip.antiAlias)
                           .margin(const EdgeInsets.symmetric(horizontal: 8))
+<<<<<<< HEAD
                           .make();
                     }),
                 10.heightBox,
@@ -117,6 +137,22 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
                 
+=======
+                          .make());
+                }),
+                10.heightBox,
+                // deal buttons
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: List.generate(2, (index) => homeButtons(
+                    height: 10,
+                    width: 10,
+                    icon: index == 0 ? icTodaysDeal : icFlashDeal,
+                    title: index == 0 ? todayDeal : flashsale
+                  )),
+                )
+
+>>>>>>> 1b2a762412d84c05f646b7ad9222bc9f9ff70f9b
           ]),
         ));
   }
