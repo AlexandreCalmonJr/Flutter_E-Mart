@@ -35,4 +35,12 @@ const flashsale = "Venda Flash";
 const topSellers = "Top Vendedores";
 const brand = "Marca";
 const topCategories = "Top Categorias";
+const featuredProduct = "Produtos Destacados";
 const featuredCategories = "Categorias Destacadas";
+const womemDress = "Womem Dress",
+    girlsWatches = "Girls Watches",
+    mobilePhone = "Mobile Phone",
+    boysGlasses = "Boys Glasses",
+    tShirts = "TShirts",
+    girlDress = "Girl Dress";
+  
