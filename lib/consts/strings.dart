@@ -43,4 +43,21 @@ const womemDress = "Womem Dress",
     boysGlasses = "Boys Glasses",
     tShirts = "TShirts",
     girlDress = "Girl Dress";
+
+//category screen strings
+const womenClothings = "Women Clothing",
+    menClothingsFashion = "Men Clothing & Fashion",
+    compAcess = "Computer & Accessories",
+    kidtoys = "Kids & Toys",
+    sports = "Sports",
+    jewelery = "Jewelery",
+    cellphone = "Cellphone & Tab",
+    furniture = "Furniture";
+  
+
+
+
+
+
+
   
